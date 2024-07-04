@@ -48,7 +48,7 @@ def main():
             
             print(f"{target}\t|\t{cp.round(cp.sum(output_array),2)}\t|\t{cp.round(cp.sum(perturbed_array),2)}")
             
-    output_df.to_csv('Output/PERTUBED_OUTPUT.csv')
+    output_df.to_csv('Output/PERTURBED_OUTPUT.csv')
     
 
 if __name__ == "__main__":
